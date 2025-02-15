@@ -1,3 +1,18 @@
+### Cardano Starter
+
+This tempalte is built with NextJS 15 TS, and it is emant to help Cardano devs kick things off fast.
+
+- Login with Magic Link, Anonymously, Google
+- Supabase integration
+- Wallet Connection (Eternl, Lace,Yoroi)
+- Wallet integration is done with hooks and with redux-persist
+- you can use ```const walletState = useAppSelector((state) => state.wallet.wallet);```
+- everywhere in you app and access wallet information.
+
+![alt text](https://github.com/adaOctopus/cardano-project-template/blob/main/screen_one.png)
+
+![alt text](https://github.com/adaOctopus/cardano-project-template/blob/main/screen_two.png)
+
 ### How to run
 
 1. First clone the repo locally
